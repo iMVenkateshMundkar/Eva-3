@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.pageContainer{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: auto;
+}
+.pageContainer input{
+  outline-color: rgb(0, 0, 255);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin: 1rem 0.1rem;
+  text-align: center;
+}
+.App div:focus{
+  box-shadow: 0px 0px 8px rgba(0, 0, 255, 0.5);
+}
